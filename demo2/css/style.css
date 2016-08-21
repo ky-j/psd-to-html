@@ -1,0 +1,220 @@
+.container {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+header {
+    height: 104px;
+}
+a.logo {
+    width: 236px;
+    height: 82px;
+    display: block;
+    background: url(../images/logo.png) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.tel {
+    width: 163px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background-image: url(../images/tel.png);
+}
+.nav {
+    position: absolute;
+    right: 5px;
+    top: 47px;
+    height: 60px;
+}
+.nav li {
+    float: left;
+}
+.nav li a {
+    display: block;
+    font-size: 14px;
+    width: 60px;
+    height: 54px;
+    line-height: 54px;
+    margin: 0 15px;
+    color: #666;
+    text-align: center;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+.nav li a.active {
+    color: #00b3e1;
+    border-bottom: 3px solid #00b3e1;
+}
+.nav li a:hover {
+    color: #00b3e1;
+    border-bottom: 3px solid #00b3e1;
+}
+.banner {
+    height: 500px;
+    background: url(../images/banner.jpg) no-repeat center;
+}
+.section1 {
+    height: 370px;
+}
+a.box {
+    display: block;
+    margin-top: 92px;
+    width: 530px;
+    height: 183px;
+    border: 2px solid #eee;
+    position: relative;
+}
+a.box:hover {
+    background: #00408f;
+}
+.box-l {
+    float: left;
+}
+.box-r {
+    float: right;
+}
+.icon {
+    width: 110px;
+    height: 110px;
+    color: #bfbfbf;
+    font-size: 70px;
+    text-align: center;
+    line-height: 110px;
+    float: left;
+    position: absolute;
+    left: 25px;
+    top: 36px;
+}
+a.box:hover .icon {
+    color: #fff;
+}
+.intro-text {
+    position: absolute;
+    top: 36px;
+    right: 38px;
+    width: 314px;
+}
+.intro-text h2 {
+    color: #666;
+    font-size: 18px;
+}
+.intro-text p {
+    color: #aaa;
+    font-size: 14px;
+}
+a.box:hover h2 {
+    color: #fff;
+}
+a.box:hover p {
+    color: #f5f5f5;
+}
+.section2 {
+    height: 630px;
+    background: #f2f4f6;
+}
+.gallery-line, .news-line {
+    border-top: 1px solid #d7dfdc;
+    border-bottom: 1px solid #d7dfdc;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 83px;
+}
+.news-line{background: #d7dfdc;}
+.section2 h1, .section3 h1 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 67px;
+    width: 124px;
+    margin-left: -62px;
+}
+.section2 p, .section3 p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #00b3e1;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 102px;
+    width: 150px;
+    margin-left: -75px;
+}
+.section2 h1, .section2 p {
+    background: #f2f4f6;
+}
+.section3 h1, .section3 p {
+    background: #fff;
+}
+.section2 .line, .section3 .line {
+    position: absolute;
+    left: 50%;
+    top: 132px;
+    background: #00b3e1;
+    width: 50px;
+    height: 1px;
+    margin-left: -25px;
+}
+.section2 .gallery-list {
+    width: 1112px;
+    overflow: hidden;
+    padding-top: 167px;
+}
+.section2 .gallery-list li {
+    float: left;
+    width: 268px;
+    height: 300px;
+    margin-right: 10px;
+}
+.section2 a.more {
+    display: block;
+    width: 226px;
+    height: 48px;
+    border: 1px solid #202524;
+    line-height: 48px;
+    font-size: 12px;
+    color: #202524;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 62px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.section2 .arrow {
+    margin: 0 40px 0 40px;
+    border-left-color: #202524;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.section2 a.more:hover {
+    background: #00b3e1;
+    color: #fff;
+    border: 1px solid #00b3e1;
+}
+.section2 a.more:hover .arrow {
+    border-left-color: #fff;
+    margin: 0 20px 0 60px;
+}
+.section3 {
+    height: 616px;
+}
+footer {
+    height: 218px;
+    background: #00b3e1;
+}
+.copyright {
+    height: 34px;
+    background: #00408f;
+}
